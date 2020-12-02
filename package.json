@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "'git init' on steroids",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "ginit": "./index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "pkg": "pkg -t node14-macos-x64 ."
   },
   "keywords": [
     "Git",
